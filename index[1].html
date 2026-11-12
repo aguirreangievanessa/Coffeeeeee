@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Coffe Time, un espacio acogedor para disfrutar café y postres.">
+  <title>Coffe Time | Un momento para ti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#inicio">Coffe <span>Time.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#menu">Menú</a><a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">CAFÉ • POSTRES • MOMENTOS</p>
+        <h1>Un buen café,<br><em>un mejor momento.</em></h1>
+        <p class="hero-copy">Haz una pausa, disfruta tu bebida favorita y convierte cualquier día en algo especial.</p>
+        <a class="button" href="#menu">Descubre nuestro menú</a>
+      </div>
+      <div class="hero-photo" role="img" aria-label="Taza de café en una mesa acogedora"></div>
+    </section>
+
+    <section class="intro section" id="nosotros">
+      <p class="eyebrow">BIENVENIDO A COFFE TIME</p>
+      <h2>Tu rincón favorito para <em>desconectar.</em></h2>
+      <p>Creemos que los pequeños momentos hacen los mejores días. Preparamos café y postres con mucho cariño para que disfrutes, compartas y te sientas como en casa.</p>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-heading">
+        <div><p class="eyebrow">HECHO PARA DISFRUTAR</p><h2>Un antojo para cada momento</h2></div>
+        <p>Descubre algunos favoritos de la casa.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card"><img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=85" alt="Café latte"><div><span class="tag">CAFÉ</span><h3>Latte clásico</h3><p>Espresso suave con leche cremosa.</p><strong>$65 MXN</strong></div></article>
+        <article class="menu-card"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85" alt="Café frío"><div><span class="tag">FAVORITO</span><h3>Iced coffee</h3><p>Café frío, refrescante y delicioso.</p><strong>$70 MXN</strong></div></article>
+        <article class="menu-card"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85" alt="Pastel de chocolate"><div><span class="tag">POSTRE</span><h3>Pastel de chocolate</h3><p>Suave, esponjoso y chocolatoso.</p><strong>$75 MXN</strong></div></article>
+        <article class="menu-card"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85" alt="Croissant"><div><span class="tag">PANADERÍA</span><h3>Croissant</h3><p>Hojaldre doradito y recién horneado.</p><strong>$48 MXN</strong></div></article>
+      </div>
+    </section>
+
+    <section class="quote">
+      <p>“A veces, todo lo que necesitas es una taza de café y un momento para ti.”</p>
+      <span>— Coffe Time</span>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div><p class="eyebrow">NOS ENCANTARÍA VERTE</p><h2>Tu próxima pausa<br><em>empieza aquí.</em></h2><p>Ven por tu bebida favorita y disfruta de un ambiente cálido y tranquilo.</p></div>
+      <div class="contact-details"><p><strong>Horario</strong><br>Lunes a sábado · 8:00 a.m. – 8:00 p.m.</p><p><strong>Ubicación</strong><br>Tijuana, Baja California</p><p><strong>Contacto</strong><br>hola@coffeetime.com</p><a class="button button-light" href="mailto:hola@coffeetime.com">Escríbenos</a></div>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#inicio">Coffe <span>Time.</span></a><p>Hecho con cariño y mucho café ☕</p><small>© <span id="year"></span> Coffe Time. Proyecto escolar.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
